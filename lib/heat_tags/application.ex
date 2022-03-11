@@ -15,7 +15,8 @@ defmodule HeatTags.Application do
       # Start the PubSub system
       {Phoenix.PubSub, name: HeatTags.PubSub},
       # Start the Endpoint (http/https)
-      HeatTagsWeb.Endpoint
+      HeatTagsWeb.Endpoint,
+      HeatTags.Scheduler
       # Start a worker by calling: HeatTags.Worker.start_link(arg)
       # {HeatTags.Worker, arg}
     ]
