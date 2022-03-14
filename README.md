@@ -1,5 +1,8 @@
 # HeatTags
 
+BackEnd application, development with Elixir
+
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
